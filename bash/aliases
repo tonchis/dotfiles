@@ -1,0 +1,23 @@
+# Global
+alias c="clear"
+alias h="history"
+alias v="$EDITOR"
+alias reload="source ~/.bashrc; clear"
+alias ea="v ~/bin/dotfiles/bash/aliases"
+alias ..="cd .."
+alias ~="cd ~/"
+
+# RSpec
+alias spec="spec --color --format specdoc"
+
+# Git
+alias g="git"
+alias gco="git co"
+alias gci="git ci -m"
+alias gpl="git pl"
+alias gps="git ps"
+alias gs="git status"
+
+# Rails
+alias ss="script/server"
+alias sc="script/console"

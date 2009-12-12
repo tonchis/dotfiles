@@ -1,9 +1,9 @@
 # Global
 alias c="clear"
 alias h="history"
-alias v="$EDITOR"
+alias e="$EDITOR"
 alias reload="source ~/.bashrc; clear"
-alias ea="v ~/bin/dotfiles/bash/aliases"
+alias ea="e ~/bin/dotfiles/bash/aliases"
 alias ..="cd .."
 alias ~="cd ~/"
 

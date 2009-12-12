@@ -1,2 +1,8 @@
-export EDITOR="mvim"
 export PATH=$PATH:~/bin:/opt/local/bin:/opt/local/sbin
+
+# To determine the default text editor
+if [ "`uname`" = 'Linux' ]; then
+  export EDITOR="gvim"
+else
+  export EDITOR="mvim"
+fi

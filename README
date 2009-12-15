@@ -1,7 +1,0 @@
-These are my bash configuration files. In order for them to work, you need to source the dotfiles/bashrc file in your ~/.bashrc
-Also, if you have a ~/.bash_profile you can put the next code in it to source ~/.bashrc
-
-if [ -f ~/.bashrc ];
-then
-  source ~/.bashrc
-fi

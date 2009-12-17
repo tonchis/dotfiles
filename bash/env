@@ -4,5 +4,5 @@ export PATH=$PATH:~/bin:/opt/local
 if [ "`uname`" = 'Linux' ]; then
   export EDITOR="gvim"
 else
-  export EDITOR="mvim"
+  export EDITOR="mvim -p"
 fi

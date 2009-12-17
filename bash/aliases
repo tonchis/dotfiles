@@ -16,6 +16,7 @@ alias gco="git co"
 alias gci="git ci -m"
 alias gpl="git pl"
 alias gps="git ps"
+alias ga="git add"
 alias gs="git status"
 
 # Rails

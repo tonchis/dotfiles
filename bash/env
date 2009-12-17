@@ -1,4 +1,4 @@
-export PATH=$PATH:~/bin:/opt/local/bin:/opt/local/sbin
+export PATH=$PATH:~/bin:/opt/local
 
 # To determine the default text editor
 if [ "`uname`" = 'Linux' ]; then

@@ -19,6 +19,12 @@ alias gps="git ps"
 alias ga="git add"
 alias gs="git status"
 
+# Enables autocompletion for git when using alias
+complete -o default -o nospace -F _git_checkout gco
+complete -o default -o nospace -F _git_commit gci
+complete -o default -o nospace -F _git_pull gpl
+complete -o default -o nospace -F _git_push gps
+
 # Rails
 alias ss="script/server"
 alias sc="script/console"

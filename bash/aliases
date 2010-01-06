@@ -4,6 +4,7 @@ alias h="history"
 alias e="$EDITOR"
 alias reload="source ~/.bashrc; clear"
 alias ea="e ~/bin/dotfiles/bash/aliases"
+alias ee="e ~/bin/dotfiles/bash/env"
 alias ..="cd .."
 alias ~="cd ~/"
 
@@ -13,8 +14,8 @@ alias spec="spec --color --format specdoc"
 # Git
 alias g="git"
 alias gco="git co"
-alias gci="git ci -m"
 alias gpl="git pl"
+alias gci="git ci -m"
 alias gps="git ps"
 alias ga="git add"
 alias gs="git status"
@@ -28,3 +29,4 @@ complete -o default -o nospace -F _git_push gps
 # Rails
 alias ss="script/server"
 alias sc="script/console"
+alias at="autotest"

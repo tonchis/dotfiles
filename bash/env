@@ -1,17 +1,21 @@
-export PATH=/opt:$PATH:~/bin
+# MacPorts Installer addition on 2009-11-23_at_16:17:58: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
 
-# To determine the default text editor
+# MacPorts Installer addition on 2009-11-23_at_16:17:58: adding an appropriate MANPATH variable for use with MacPorts.
+export MANPATH=/opt/local/share/man:$MANPATH
+# Finished adapting your MANPATH environment variable for use with MacPorts.
+
+# To determine the default text editor.
 if [ "`uname`" = 'Linux' ]; then
   export EDITOR="gvim"
 else
   export EDITOR="mvim -p"
 fi
 
-# MacPorts Installer addition on 2009-11-23_at_16:17:58: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+# My path.
+export PATH=$PATH:~/bin
 
-
-# MacPorts Installer addition on 2009-11-23_at_16:17:58: adding an appropriate MANPATH variable for use with MacPorts.
-export MANPATH=/opt/local/share/man:$MANPATH
-# Finished adapting your MANPATH environment variable for use with MacPorts.
+# Colors to show in ls -G output.
+# See man ls and search for LSCOLORS to understand how this string works.
+export LSCOLORS="gxfxcxdxbxegedabagacad"

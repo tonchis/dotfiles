@@ -14,19 +14,18 @@ alias ls="ls -G"
 alias spec="spec --color --format specdoc"
 
 # Git
-alias g="git"
 alias gco="git co"
-alias gpl="git pl"
-alias gci="git ci -m"
-alias gps="git ps"
+alias gcm="git ci -m"
+alias gci="git ci"
 alias ga="git add"
 alias gs="git status"
+alias gba="git b -a"
+alias gf="git fetch"
 
 # Enables autocompletion for git when using alias
 complete -o default -o nospace -F _git_checkout gco
 complete -o default -o nospace -F _git_commit gci
-complete -o default -o nospace -F _git_pull gpl
-complete -o default -o nospace -F _git_push gps
+complete -o default -o nospace -F _git_fetch gf
 
 # Rails
 alias ss="script/server"

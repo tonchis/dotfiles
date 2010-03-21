@@ -8,7 +8,7 @@ alias ee="e ~/bin/dotfiles/bash/env"
 alias ..="cd .."
 alias ~="cd ~/"
 alias diff="$EDITOR -d"
-alias ls="ls -G"
+alias ls="ls --color=always"
 
 # RSpec
 alias spec="spec --color --format specdoc"

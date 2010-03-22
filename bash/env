@@ -16,7 +16,7 @@ fi
 # My path.
 export PATH=$PATH:~/bin
 
-# Colors to show in ls --color=always output.
+# Colors to show in ls -G output.
 # See man ls and search for LSCOLORS to understand how this string works.
 if [ "`uname`" = 'Darwin' ]; then
   export LSCOLORS="gxfxcxdxbxegedabagacad"

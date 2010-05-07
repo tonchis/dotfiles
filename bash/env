@@ -14,7 +14,7 @@ else
 fi
 
 # My path.
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin:/usr/local/mysql-5.1.45-osx10.5-x86/bin
 
 # Colors to show in ls -G output.
 # See man ls and search for LSCOLORS to understand how this string works.

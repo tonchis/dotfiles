@@ -35,4 +35,4 @@ complete -o default -o nospace -F _git_fetch gf
 # Rails
 alias ss="script/server"
 alias sc="script/console"
-alias at="autotest"
+alias at="autotest -q"

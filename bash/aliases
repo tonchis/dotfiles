@@ -19,12 +19,12 @@ fi
 alias spec="spec --color --format specdoc"
 
 # Git
-alias gco="git co"
-alias gcm="git ci -m"
-alias gci="git ci"
+alias gco="git checkout"
+alias gcm="git commit -m"
+alias gci="git commit"
 alias ga="git add"
 alias gs="git status"
-alias gba="git b -a"
+alias gba="git branch -a"
 alias gf="git fetch"
 
 # Enables autocompletion for git when using alias

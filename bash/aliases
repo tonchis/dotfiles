@@ -26,11 +26,14 @@ alias ga="git add"
 alias gs="git status"
 alias gba="git branch -a"
 alias gf="git fetch"
+alias glo="git log --pretty=oneline"
+alias gr="git rebase"
 
 # Enables autocompletion for git when using alias
 complete -o default -o nospace -F _git_checkout gco
 complete -o default -o nospace -F _git_commit gci
 complete -o default -o nospace -F _git_fetch gf
+complete -o default -o nospace -F _git_rebase gr
 
 # Rails
 alias ss="script/server"

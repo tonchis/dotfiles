@@ -6,13 +6,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 # Finished adapting your MANPATH environment variable for use with MacPorts.
 
-# To determine the default text editor.
-if [ "`uname`" = 'Linux' ]; then
-  export EDITOR="gvim"
-else
-  export EDITOR="mvim -p"
-fi
-
 # My path.
 export PATH=$PATH:~/bin:/usr/local/mysql-5.1.45-osx10.5-x86/bin
 
@@ -20,6 +13,10 @@ export PATH=$PATH:~/bin:/usr/local/mysql-5.1.45-osx10.5-x86/bin
 # See man ls and search for LSCOLORS to understand how this string works.
 if [ "`uname`" = 'Darwin' ]; then
   export LSCOLORS="gxfxcxdxbxegedabagacad"
+  export COLORTERM=xterm-color256
+  export EDITOR="mvim -p"
 else
   export LS_COLORS='di=36:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35'
+  export COLORTERM=gnome-256color
+  export EDITOR="gvim"
 fi

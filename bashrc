@@ -2,4 +2,4 @@
 . ~/bin/dotfiles/bash/config
 . ~/bin/dotfiles/bash/aliases
 if [[ -f ~/bin/git-completion.bash ]] ; then source ~/bin/git-completion.bash ; fi
-if [[ -s /home/tonchis/.rvm/scripts/rvm ]] ; then source /home/tonchis/.rvm/scripts/rvm ; fi
+if [[ -s /Users/tonchis/.rvm/scripts/rvm ]] ; then source /Users/tonchis/.rvm/scripts/rvm ; fi

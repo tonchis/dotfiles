@@ -26,7 +26,7 @@ alias ga="git add"
 alias gs="git status"
 alias gba="git branch -a"
 alias gf="git fetch"
-alias glo="git log --pretty=oneline"
+alias glo="git log --oneline --decorate"
 alias gr="git rebase"
 
 # Enables autocompletion for git when using alias

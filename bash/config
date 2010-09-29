@@ -34,3 +34,6 @@ txtrst='\e[0m'    # Text Reset
 
 # Prompt definitions
 PS1="\[$txtred\]\n\u\[$txtrst\]@\[$txtgrn\]\h\[$txtrst\]:\[$txtcyn\]\w \[$bldgrn\]\$(vcprompt)\[$txtrst\] \n$ "
+
+# Vim behaviour
+set -o vi

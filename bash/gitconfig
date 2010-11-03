@@ -1,0 +1,46 @@
+[core]
+  pager      = less -FRSX
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[user]
+  name  = Lucas Tolchinsky
+  email = ltolchinsky@vurbiatechnologies.com
+
+[github]
+  user  = tonchis
+  email = lucas.tolchinsky@gmail.com
+
+[alias]
+  ci  = commit
+  co  = checkout
+  b   = branch
+  pl  = pull
+  ps  = push
+  st  = status
+  rb  = rebase
+  fe  = fetch
+  lga = log --graph --all --decorate --oneline
+
+[color]
+  diff        = auto
+  status      = auto
+  branch      = auto
+  interactive = auto
+  ui          = true
+  pager       = true
+
+[color "branch"]
+  current = green reverse
+  local   = green
+  remote  = yellow
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old  = red bold
+  new  = green bold
+
+[color "status"]
+  added     = green
+  changed   = yellow
+  untracked = red

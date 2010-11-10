@@ -8,7 +8,7 @@ alias ee="e ~/bin/dotfiles/bash/env"
 alias ..="cd .."
 alias ~="cd ~/"
 alias diff="$EDITOR -d"
-alias t="ruby ~/bin/new_terminal_tab.rb"
+alias t="~/bin/new_terminal_tab.rb"
 
 if [ "`uname`" = 'Linux' ]; then
   alias ls="ls --color=always"

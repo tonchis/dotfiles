@@ -8,6 +8,7 @@ alias ee="e ~/bin/dotfiles/bash/env"
 alias ..="cd .."
 alias ~="cd ~/"
 alias diff="$EDITOR -d"
+alias t="ruby ~/bin/new_terminal_tab.rb"
 
 if [ "`uname`" = 'Linux' ]; then
   alias ls="ls --color=always"
@@ -27,6 +28,7 @@ alias gba="git branch -a"
 alias gf="git fetch"
 alias gg="git lga"
 alias gr="git rebase"
+alias grh="git rh"
 
 # Enables autocompletion for git when using alias
 complete -o default -o nospace -F _git_checkout gco

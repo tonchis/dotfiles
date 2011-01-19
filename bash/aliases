@@ -26,7 +26,7 @@ alias ga="git add"
 alias gs="git status"
 alias gba="git branch -a"
 alias gf="git fetch"
-alias gg="git lga"
+alias gg="git log --decorate --oneline --all --graph"
 alias gr="git rebase"
 alias grh="git rh"
 
@@ -39,4 +39,11 @@ complete -o default -o nospace -F _git_rebase gr
 # Rails
 alias ss="script/server"
 alias sc="script/console"
-alias at="autotest -q"
+alias at="autotest -q -c"
+
+# Rails 3
+alias rs="rails server"
+alias rc="rails console"
+
+# Skype
+alias skp="LD_PRELOAD=/usr/lib32/libv4l/v4l2convert.so skype"

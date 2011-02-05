@@ -29,6 +29,7 @@ alias gf="git fetch"
 alias gg="git log --decorate --oneline --all --graph"
 alias gr="git rebase"
 alias grh="git rh"
+alias gd="git diff"
 
 # Enables autocompletion for git when using alias
 complete -o default -o nospace -F _git_checkout gco

@@ -2,10 +2,6 @@
   pager      = less -FRSX
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
-[user]
-  name  = Lucas Tolchinsky
-  email = ltolchinsky@vurbiatechnologies.com
-
 [github]
   user  = tonchis
   email = lucas.tolchinsky@gmail.com

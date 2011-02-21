@@ -7,7 +7,7 @@ export MANPATH=/opt/local/share/man:$MANPATH
 # Finished adapting your MANPATH environment variable for use with MacPorts.
 
 # My path.
-export PATH=$PATH:~/bin:/usr/local/mysql-5.1.50-osx10.6-x86_64/bin
+export PATH=$PATH:~/firefox:~/bin:/usr/local/mysql-5.1.50-osx10.6-x86_64/bin
 
 # Colors to show in ls -G output.
 # See man ls and search for LSCOLORS to understand how this string works.

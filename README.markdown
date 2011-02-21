@@ -10,6 +10,5 @@ Also, if you have a `~/.bash_profile` you can put the next code in it to source 
       . ~/.bashrc
     fi
 
-Finally, in my PS1 I call the vcprompt script wich is used to display the working git branch on your prompt. Here's the download:
+Finally, in my PS1 I call the vcprompt script wich is used to display the working git branch on your prompt.
 
-    wget http://vc.gerg.ca/hg/vcprompt/archive/tip.tar.gz && tar zxvf tip.tar.gz && cd vcprompt-07f110976599/ && make && cp -p vcprompt ~/bin && cd .. && rm -rf tip.tar.gz vcprompt-07f110976599/

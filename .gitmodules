@@ -1,0 +1,3 @@
+[submodule "vcprompt"]
+	path = bin/vcprompt
+	url = git://github.com/xvzf/vcprompt.git

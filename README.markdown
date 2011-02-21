@@ -10,5 +10,11 @@ Also, if you have a `~/.bash_profile` you can put the next code in it to source 
       . ~/.bashrc
     fi
 
-Finally, in my PS1 I call the vcprompt script wich is used to display the working git branch on your prompt.
+Finally, in my PS1 I call the vcprompt script wich is used to display the working git branch on your prompt, here's how to it work:
+
+    git submodule init && git submodule update
+    cd bin/vcprompt
+    sudo python setup.py install
+
+Enjoy!
 

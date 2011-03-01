@@ -10,6 +10,7 @@ alias ..="cd .."
 alias ~="cd ~/"
 alias diff="$EDITOR -d"
 alias t="~/bin/new_terminal_tab.rb"
+alias ack="ack-grep"
 
 if [ "`uname`" = 'Linux' ]; then
   alias ls="ls --color=always"

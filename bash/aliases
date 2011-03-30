@@ -11,6 +11,7 @@ alias ~="cd ~/"
 alias diff="$EDITOR -d"
 alias t="~/bin/new_terminal_tab.rb"
 alias ack="ack-grep"
+alias wallpaper_script="sudo gvim /usr/share/backgrounds/contest/background-1.xml"
 
 if [ "`uname`" = 'Linux' ]; then
   alias ls="ls --color=always"
@@ -34,6 +35,7 @@ alias grh="git reset HEAD"
 alias gd="git diff"
 alias gsh="git show"
 alias gm="git merge"
+alias gpo="git push origin"
 
 # Enables autocompletion for git when using alias
 complete -o default -o nospace -F _git_checkout gco
@@ -41,6 +43,7 @@ complete -o default -o nospace -F _git_commit gci
 complete -o default -o nospace -F _git_fetch gf
 complete -o default -o nospace -F _git_rebase grb
 complete -o default -o nospace -F _git_merge gm
+complete -o default -o nospace -F _git_checkout gpo
 
 # Rails
 alias ss="script/server"

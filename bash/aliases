@@ -11,6 +11,7 @@ alias ~="cd ~/"
 alias diff="$EDITOR -d"
 alias t="~/bin/new_terminal_tab.rb"
 alias wallpaper_script="sudo gvim /usr/share/backgrounds/contest/background-1.xml"
+alias quit="exit"
 
 if [ "`uname`" = 'Linux' ]; then
   alias ls="ls --color=always"
